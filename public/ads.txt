@@ -1,0 +1,14 @@
+google-site-verification: google123456789012345678
+contact: adsense@google.com
+
+# AdSense Compliance Notice
+# This domain is under review for Google AdSense approval
+# Site: MBTI personality test service
+# Contact: Your email address
+# Content: Personality testing and MBTI results
+
+# Ad Policies Compliance
+- No deceptive content
+- No click fraud or artificial traffic
+- No restricted content
+- All content is appropriate and compliant with Google policies
