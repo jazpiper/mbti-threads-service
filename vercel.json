@@ -1,0 +1,19 @@
+{
+  "buildCommand": "npm install",
+  "outputDirectory": ".",
+  "devCommand": "node src/server.js",
+  "installCommand": "npm install",
+  "framework": null,
+  "regions": ["hkg1"],
+  "functions": {},
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
+    }
+  ]
+}
