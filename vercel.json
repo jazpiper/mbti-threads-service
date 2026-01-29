@@ -1,6 +1,6 @@
 {
-  "buildCommand": "npm install && mkdir -p .vercel/output && cp -r public/* .vercel/output/",
-  "outputDirectory": ".vercel/output",
+  "outputDirectory": "public",
+  "buildCommand": "npm install",
   "devCommand": "node src/server.js",
   "installCommand": "npm install",
   "framework": null,
