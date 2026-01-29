@@ -1,6 +1,6 @@
 {
-  "buildCommand": "npm install",
-  "outputDirectory": "public",
+  "buildCommand": "npm install && mkdir -p .vercel/output && cp -r public/* .vercel/output/",
+  "outputDirectory": ".vercel/output",
   "devCommand": "node src/server.js",
   "installCommand": "npm install",
   "framework": null,
@@ -12,6 +12,10 @@
     {
       "source": "/(.*)",
       "destination": "/$1"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/public/privacy/index.html"
     }
   ]
 }
