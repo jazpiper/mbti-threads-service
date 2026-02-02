@@ -16,6 +16,10 @@
     {
       "source": "/privacy",
       "destination": "/public/privacy/index.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/public/terms/index.html"
     }
   ]
 }

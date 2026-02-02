@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>개인정보처리방침 | MBTI 테스트</title>
+    <meta name="description" content="MBTI 테스트 서비스의 개인정보처리방침입니다.">
+    <meta property="og:title" content="개인정보처리방침 | MBTI 테스트">
+    <meta property="og:description" content="MBTI 테스트 서비스의 개인정보처리방침">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#ec4899">
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4896634202351610" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #ec4899 0%, #9333ea 100%);
+            min-height: 100vh;
+            min-height: 100dvh;
+            display: flex;
+            justify-content: center;
+            padding: 16px;
+            padding-bottom: 280px;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        .container {
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 24px 48px rgba(0,0,0,0.25);
+            max-width: 768px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ec4899 0%, #9333ea 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 0.95em;
+            opacity: 0.95;
+            line-height: 1.5;
+        }
+
+        .content {
+            padding: 32px 24px;
+        }
+
+        section {
+            margin-bottom: 28px;
+        }
+
+        h2 {
+            font-size: 1.35em;
+            font-weight: 700;
+            color: #9333ea;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        ul {
+            list-style-position: inside;
+            color: #374151;
+        }
+
+        li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid #e5e7eb;
+            text-align: center;
+        }
+
+        .footer p {
+            color: #9ca3af;
+            font-size: 0.875em;
+            margin-bottom: 8px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #ec4899 0%, #9333ea 100%);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 16px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05em;
+            margin-top: 20px;
+            transition: opacity 0.2s ease;
+            box-shadow: 0 4px 12px rgba(147, 51, 234, 0.3);
+        }
+
+        .back-btn:active {
+            opacity: 0.9;
+            transform: scale(0.98);
+        }
+
+        /* 고정 하단 광고 */
+        .ad-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            padding: 16px;
+            text-align: center;
+            border-top: 1px solid #f0f0f0;
+            z-index: 1000;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+        }
+
+        /* 모바일 최적화 */
+        @media (max-width: 480px) {
+            body {
+                padding: 12px;
+                padding-bottom: 220px;
+                font-size: 15px;
+            }
+
+            .container {
+                border-radius: 20px;
+            }
+
+            .header {
+                padding: 24px 16px;
+            }
+
+            .header h1 {
+                font-size: 1.6em;
+            }
+
+            .header p {
+                font-size: 0.9em;
+            }
+
+            .content {
+                padding: 24px 16px;
+            }
+
+            section {
+                margin-bottom: 24px;
+            }
+
+            h2 {
+                font-size: 1.2em;
+                margin-bottom: 10px;
+            }
+
+            li {
+                margin-bottom: 6px;
+            }
+
+            .back-btn {
+                padding: 14px 24px;
+                font-size: 1em;
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            .ad-footer {
+                padding: 12px;
+            }
+        }
+
+        /* 태블릿 */
+        @media (min-width: 481px) and (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 28px 20px;
+            }
+
+            h2 {
+                font-size: 1.3em;
+            }
+        }
+
+        /* 데스크탑 */
+        @media (min-width: 769px) {
+            .container {
+                max-width: 768px;
+            }
+
+            .content {
+                padding: 40px 32px;
+            }
+
+            h2 {
+                font-size: 1.4em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔒 개인정보처리방침</h1>
+            <p>개인정보 보호를 위해 최선을 다합니다</p>
+        </div>
+
+        <div class="content">
+            <section>
+                <h2>1. 수집하는 개인정보</h2>
+                <ul>
+                    <li>MBTI 성격 유형 테스트 응답</li>
+                    <li>선택된 옵션 (없음)</li>
+                    <li>브라우저 및 기기 정보 (익명화 처리)</li>
+                    <li>테스트 완료 시간</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>2. 개인정보 수집 목적</h2>
+                <ul>
+                    <li>MBTI 성격 유형 분석 서비스 제공</li>
+                    <li>사용자 경험 개선을 위한 서비스 분석</li>
+                    <li>광고 수익 창출 (Google AdSense)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. 개인정보 사용</h2>
+                <ul>
+                    <li>테스트 결과 분석 및 MBTI 타입 결정에만 사용</li>
+                    <li>서비스 개선 및 통계 분석</li>
+                    <li>법률이나 권고에 따른 목적으로는 사용하지 않음</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. 개인정보 공유</h2>
+                <ul>
+                    <li>제3자에게 공유하지 않음 (광고 제공업체 제외)</li>
+                    <li>법률이나 권고에 따른 요청 시에는 제공</li>
+                    <li>제휴의 데이터를 판매하거나 영리 목적으로 사용하지 않음</li>
+                    <li>데이터 보호를 위한 기술적/관리적 조치 이행</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>5. 데이터 보호</h2>
+                <ul>
+                    <li>HTTPS 암호화 통신</li>
+                    <li>데이터 암호화 저장</li>
+                    <li>정기적인 보안 점검 및 업데이트</li>
+                    <li>데이터 침해 방지를 위한 접근 제한</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>6. 사용자 권리</h2>
+                <ul>
+                    <li>개인정보 열람, 정정, 삭제 요청 권리</li>
+                    <li>쿠키 및 기기 설정 삭제 권리</li>
+                    <li>개인정보 수집에 대한 동의 철회 및 거부 권리</li>
+                    <li>서비스 이용 중지 권리</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>7. 개인정보 보유 기간</h2>
+                <ul>
+                    <li>테스트 응답은 결과 표시 후 즉시 삭제</li>
+                    <li>통계 데이터는 최대 90일 보관 후 자동 삭제</li>
+                    <li>법률이나 규정에 따른 보관이 필요한 경우에만 보관</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>8. 문의</h2>
+                <p style="color: #666; margin-bottom: 12px; font-size: 0.95em;">
+                    개인정보 처리와 관련된 문의는 아래 연락처로 접수하여 7일 이내에 답변 드립니다.
+                </p>
+                <ul>
+                    <li>이메일: [보호처리된 이메일 주소]</li>
+                    <li>전화: [보호처리된 전화번호]</li>
+                    <li>주소: [보호처리된 주소]</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>9. 개인정보처리방침 변경</h2>
+                <p style="color: #666; font-size: 0.95em;">
+                    중요한 변경사항이 있을 경우, 최소 30일 전에 고지합니다.
+                    사용자가 계속 서비스를 이용하는 것을 변경에 동의한 것으로 간주합니다.
+                </p>
+            </section>
+
+            <div class="footer">
+                <p>최종 업데이트: 2026년 1월 29일</p>
+                <p>본 개인정보처리방침은 서비스 이용약관의 일부입니다.</p>
+                <a href="/" class="back-btn">테스트 시작하기 →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 고정 하단 광고 -->
+    <div class="ad-footer">
+        <ins class="adsbygoogle"
+             style="display:block; text-align: center;"
+             data-ad-client="ca-pub-4896634202351610"
+             data-ad-slot="5187796077"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+</body>
+</html>

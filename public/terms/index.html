@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>이용약관 | MBTI 테스트</title>
+    <meta name="description" content="MBTI 테스트 서비스의 이용약관입니다.">
+    <meta property="og:title" content="이용약관 | MBTI 테스트">
+    <meta property="og:description" content="MBTI 테스트 서비스의 이용약관">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#ec4899">
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4896634202351610" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #ec4899 0%, #9333ea 100%);
+            min-height: 100vh;
+            min-height: 100dvh;
+            display: flex;
+            justify-content: center;
+            padding: 16px;
+            padding-bottom: 280px;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        .container {
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 24px 48px rgba(0,0,0,0.25);
+            max-width: 768px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ec4899 0%, #9333ea 100%);
+            color: white;
+            padding: 32px 24px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 0.95em;
+            opacity: 0.95;
+            line-height: 1.5;
+        }
+
+        .content {
+            padding: 32px 24px;
+        }
+
+        section {
+            margin-bottom: 28px;
+        }
+
+        h2 {
+            font-size: 1.35em;
+            font-weight: 700;
+            color: #9333ea;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .section-intro {
+            color: #666;
+            margin-bottom: 12px;
+            font-size: 0.95em;
+        }
+
+        ul {
+            list-style-position: inside;
+            color: #374151;
+        }
+
+        li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .note {
+            background: #faf5ff;
+            border-left: 4px solid #9333ea;
+            padding: 12px 16px;
+            margin-top: 12px;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.9em;
+            color: #6b7280;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid #e5e7eb;
+            text-align: center;
+        }
+
+        .footer p {
+            color: #9ca3af;
+            font-size: 0.875em;
+            margin-bottom: 8px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #ec4899 0%, #9333ea 100%);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 16px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05em;
+            margin-top: 20px;
+            transition: opacity 0.2s ease;
+            box-shadow: 0 4px 12px rgba(147, 51, 234, 0.3);
+        }
+
+        .back-btn:active {
+            opacity: 0.9;
+            transform: scale(0.98);
+        }
+
+        /* 고정 하단 광고 */
+        .ad-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            padding: 16px;
+            text-align: center;
+            border-top: 1px solid #f0f0f0;
+            z-index: 1000;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+        }
+
+        /* 모바일 최적화 */
+        @media (max-width: 480px) {
+            body {
+                padding: 12px;
+                padding-bottom: 220px;
+                font-size: 15px;
+            }
+
+            .container {
+                border-radius: 20px;
+            }
+
+            .header {
+                padding: 24px 16px;
+            }
+
+            .header h1 {
+                font-size: 1.6em;
+            }
+
+            .header p {
+                font-size: 0.9em;
+            }
+
+            .content {
+                padding: 24px 16px;
+            }
+
+            section {
+                margin-bottom: 24px;
+            }
+
+            h2 {
+                font-size: 1.2em;
+                margin-bottom: 10px;
+            }
+
+            .section-intro {
+                font-size: 0.9em;
+            }
+
+            li {
+                margin-bottom: 6px;
+            }
+
+            .note {
+                font-size: 0.85em;
+                padding: 10px 12px;
+            }
+
+            .back-btn {
+                padding: 14px 24px;
+                font-size: 1em;
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            .ad-footer {
+                padding: 12px;
+            }
+        }
+
+        /* 태블릿 */
+        @media (min-width: 481px) and (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 28px 20px;
+            }
+
+            h2 {
+                font-size: 1.3em;
+            }
+        }
+
+        /* 데스크탑 */
+        @media (min-width: 769px) {
+            .container {
+                max-width: 768px;
+            }
+
+            .content {
+                padding: 40px 32px;
+            }
+
+            h2 {
+                font-size: 1.4em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📋 이용약관</h1>
+            <p>MBTI 테스트 서비스 이용에 대한 약관입니다</p>
+        </div>
+
+        <div class="content">
+            <section>
+                <h2>1. 서비스 이용 조건</h2>
+                <p class="section-intro">본 약관은 MBTI 테스트 서비스(이하 "서비스")를 이용하는 모든 사용자에게 적용됩니다.</p>
+                <ul>
+                    <li>만 14세 이상인 사용자만 서비스 이용 가능</li>
+                    <li>서비스 이용은 개인 목적으로만 허용</li>
+                    <li>회원가입 없이 테스트 이용 가능</li>
+                    <li>서비스 이용 시 본 약관에 동의한 것으로 간주</li>
+                    <li>약관 개정 시 최소 7일 전에 고지</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>2. 책임 한계</h2>
+                <p class="section-intro">서비스 제공자는 다음 사항에 대해 책임을 지지 않습니다.</p>
+                <ul>
+                    <li>MBTI 테스트 결과의 정확성 및 신뢰성</li>
+                    <li>테스트 결과로 인한 의사결정 및 그 결과</li>
+                    <li>사용자의 개인적인 활동 및 행동</li>
+                    <li>서비스 일시 중단 또는 오작동으로 인한 손해</li>
+                    <li>사용자의 정보 보호 실패 (고의 또는 중대한 과실 제외)</li>
+                    <li>제3자에 의한 데이터 침해 사고</li>
+                </ul>
+                <div class="note">
+                    ※ 본 서비스는 오락 및 참고용으로 제공되며, 전문적인 성격 분석 도구가 아닙니다.
+                </div>
+            </section>
+
+            <section>
+                <h2>3. 사용자 행동 규정</h2>
+                <p class="section-intro">사용자는 다음 행위를 금지합니다.</p>
+                <ul>
+                    <li>서비스 악용 및 부정한 목적으로의 이용</li>
+                    <li>자동화 도구(봇)를 통한 대량 테스트 실행</li>
+                    <li>테스트 결과 조작 및 데이터 위변조</li>
+                    <li>타인의 개인정보 무단 수집 및 이용</li>
+                    <li>저작권, 지적재산권 침해 행위</li>
+                    <li>욕설, 비방, 기타 불쾌감을 주는 행위</li>
+                    <li>서비스의 기술적 조치 우회 시도</li>
+                    <li>서버에 과도한 부하를 주는 행위</li>
+                </ul>
+                <div class="note">
+                    ※ 위반 시 서비스 이용 제한 또는 법적 조치가 취해질 수 있습니다.
+                </div>
+            </section>
+
+            <section>
+                <h2>4. 지적재산권</h2>
+                <p class="section-intro">서비스 및 콘텐츠의 지적재산권은 서비스 제공자에게 있습니다.</p>
+                <ul>
+                    <li>테스트 문항, 로직, 디자인 등 모든 콘텐츠는 서비스 제공자의 소유</li>
+                    <li>MBTI 관련 콘텐츠는 참고용으로 제공됨</li>
+                    <li>테스트 결과를 상업적 목적으로 사용 불가</li>
+                    <li>서비스의 일부 또는 전체를 복제, 배포, 수정 금지</li>
+                    <li>저작권법을 준수하여 정당한 범위 내에서 이용</li>
+                    <li>타인의 저작권을 침해하는 콘텐츠 게시 금지</li>
+                </ul>
+                <div class="note">
+                    ※ 이용 문의는 문의 섹션의 연락처로 접수해 주세요.
+                </div>
+            </section>
+
+            <section>
+                <h2>5. 서비스 변경 및 종료</h2>
+                <ul>
+                    <li>서비스 제공자는 사전 고지 없이 서비스 내용을 변경할 수 있음</li>
+                    <li>서비스의 일부 또는 전체를 중단할 수 있음</li>
+                    <li>서비스 종료 시 최소 30일 전에 사용자에게 고지</li>
+                    <li>서비스 변경 또는 종료로 인한 손해에 대해 책임 지지 않음</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>6. 분쟁 해결 및 재판 관할</h2>
+                <ul>
+                    <li>서비스 이용과 관련된 분쟁은 대한민국 법에 따름</li>
+                    <li>분쟁 발생 시 원만한 협의 해결 우선</li>
+                    <li>소송 시 서비스 제공자의 소재지 관할 법원</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>7. 문의</h2>
+                <p class="section-intro">이용약관과 관련된 문의는 아래 연락처로 접수하여 7일 이내에 답변 드립니다.</p>
+                <ul>
+                    <li>이메일: [보호처리된 이메일 주소]</li>
+                    <li>전화: [보호처리된 전화번호]</li>
+                    <li>주소: [보호처리된 주소]</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>8. 약관 변경</h2>
+                <p class="section-intro">
+                    중요한 변경사항이 있을 경우, 최소 7일 전에 고지합니다.
+                    사용자가 계속 서비스를 이용하는 것은 변경에 동의한 것으로 간주합니다.
+                </p>
+            </section>
+
+            <div class="footer">
+                <p>최종 업데이트: 2026년 1월 30일</p>
+                <p>본 이용약관은 개인정보처리방침과 함께 서비스 이용의 기준이 됩니다.</p>
+                <a href="/" class="back-btn">테스트 시작하기 →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 고정 하단 광고 -->
+    <div class="ad-footer">
+        <ins class="adsbygoogle"
+             style="display:block; text-align: center;"
+             data-ad-client="ca-pub-4896634202351610"
+             data-ad-slot="5187796077"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+</body>
+</html>
