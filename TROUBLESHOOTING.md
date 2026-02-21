@@ -27,7 +27,7 @@
 
 ```bash
 # Vercel 캐시 무효화
-cd /home/ubuntu/clawd/mbti-threads-service
+cd /home/ubuntu/project/mbti-threads-service
 vercel --prod --force
 ```
 
@@ -79,7 +79,7 @@ public/*
 
 **업데이트 코드:**
 ```bash
-cd /home/ubuntu/clawd/mbti-threads-service
+cd /home/ubuntu/project/mbti-threads-service
 # vercel.json 업데이트
 git pull
 # 방법 2 적용 (아래의 내용으로 vercel.json 수정)
